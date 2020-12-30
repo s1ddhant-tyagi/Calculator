@@ -1,11 +1,21 @@
+body
+{
+    background: url("water-1330252_1920.jpg");
+}
+
 .container
 {
     width: 400px;
+    /* display: inline-block; */
     margin: auto;
     border: 1px solid #e0dfd6;
     border-radius: 10px;
     text-align: center;
-    padding: 30px 5px;
+    padding: 10px 5px 30px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px gray;
+    background-color: white;
+    
 }
 
 #screen
@@ -16,6 +26,7 @@
     padding: 5px;
     outline: none;
     border-radius: 10px;
+    text-align: right;
 }
 
 #screen:focus
@@ -51,7 +62,7 @@ table
     background-color: #f1f3f4;
 }
 
-.blue-buttons
+#blue-buttons
 {
     background-color: #4285f4;
     color: white;
@@ -61,4 +72,11 @@ table
 .white-buttons:hover
 {
     background-color: white;
+}
+
+h1
+{
+    margin: 0px;
+    margin-bottom: 10px;
+    /* font-family: Bahnschrift SemiBold; */
 }
